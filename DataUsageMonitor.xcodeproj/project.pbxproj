@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85C9C7FE2882EDA5006391B7 /* UsageNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C9C7FD2882EDA5006391B7 /* UsageNotification.swift */; };
+		85F5A39E2875854200AE985E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A39D2875854200AE985E /* AppDelegate.swift */; };
+		85F5A3A02875854200AE985E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A39F2875854200AE985E /* ViewController.swift */; };
+		85F5A3A22875854300AE985E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F5A3A12875854300AE985E /* Assets.xcassets */; };
+		85F5A3AD2875857400AE985E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3AC2875857400AE985E /* main.swift */; };
+		85F5A3B12875878200AE985E /* UsageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3B02875878200AE985E /* UsageProvider.swift */; };
+		85F5A3B32875882C00AE985E /* Telekom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A3B22875882C00AE985E /* Telekom.swift */; };
+		85F5A3BC2875CE9E00AE985E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85F5A3BA2875CE9E00AE985E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85C9C7FD2882EDA5006391B7 /* UsageNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageNotification.swift; sourceTree = "<group>"; };
+		85C9C7FF2883487C006391B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		85F5A39A2875854200AE985E /* DataUsageMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataUsageMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F5A39D2875854200AE985E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85F5A39F2875854200AE985E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85F5A3A12875854300AE985E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85F5A3A62875854300AE985E /* DataUsageMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataUsageMonitor.entitlements; sourceTree = "<group>"; };
+		85F5A3AC2875857400AE985E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		85F5A3AE2875865D00AE985E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		85F5A3B02875878200AE985E /* UsageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageProvider.swift; sourceTree = "<group>"; };
+		85F5A3B22875882C00AE985E /* Telekom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telekom.swift; sourceTree = "<group>"; };
+		85F5A3BB2875CE9E00AE985E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		85F5A3BE2875CF3900AE985E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = ../de.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85F5A3972875854200AE985E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85F5A3912875854200AE985E = {
+			isa = PBXGroup;
+			children = (
+				85F5A39C2875854200AE985E /* DataUsageMonitor */,
+				85C9C7FF2883487C006391B7 /* README.md */,
+				85F5A39B2875854200AE985E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85F5A39B2875854200AE985E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85F5A39A2875854200AE985E /* DataUsageMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85F5A39C2875854200AE985E /* DataUsageMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				85F5A3BD2875CEBF00AE985E /* Localization */,
+				85F5A3AF2875876F00AE985E /* UsageProvider */,
+				85F5A3AE2875865D00AE985E /* Info.plist */,
+				85F5A39D2875854200AE985E /* AppDelegate.swift */,
+				85C9C7FD2882EDA5006391B7 /* UsageNotification.swift */,
+				85F5A39F2875854200AE985E /* ViewController.swift */,
+				85F5A3A12875854300AE985E /* Assets.xcassets */,
+				85F5A3A62875854300AE985E /* DataUsageMonitor.entitlements */,
+				85F5A3AC2875857400AE985E /* main.swift */,
+			);
+			path = DataUsageMonitor;
+			sourceTree = "<group>";
+		};
+		85F5A3AF2875876F00AE985E /* UsageProvider */ = {
+			isa = PBXGroup;
+			children = (
+				85F5A3B02875878200AE985E /* UsageProvider.swift */,
+				85F5A3B22875882C00AE985E /* Telekom.swift */,
+			);
+			path = UsageProvider;
+			sourceTree = "<group>";
+		};
+		85F5A3B92875CE7300AE985E /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				85F5A3BA2875CE9E00AE985E /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		85F5A3BD2875CEBF00AE985E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				85F5A3B92875CE7300AE985E /* en.lproj */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85F5A3992875854200AE985E /* DataUsageMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F5A3A92875854300AE985E /* Build configuration list for PBXNativeTarget "DataUsageMonitor" */;
+			buildPhases = (
+				85F5A3962875854200AE985E /* Sources */,
+				85F5A3972875854200AE985E /* Frameworks */,
+				85F5A3982875854200AE985E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataUsageMonitor;
+			productName = DataUsageMonitor;
+			productReference = 85F5A39A2875854200AE985E /* DataUsageMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85F5A3922875854200AE985E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					85F5A3992875854200AE985E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 85F5A3952875854200AE985E /* Build configuration list for PBXProject "DataUsageMonitor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = 85F5A3912875854200AE985E;
+			productRefGroup = 85F5A39B2875854200AE985E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85F5A3992875854200AE985E /* DataUsageMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85F5A3982875854200AE985E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F5A3A22875854300AE985E /* Assets.xcassets in Resources */,
+				85F5A3BC2875CE9E00AE985E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85F5A3962875854200AE985E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F5A3A02875854200AE985E /* ViewController.swift in Sources */,
+				85F5A39E2875854200AE985E /* AppDelegate.swift in Sources */,
+				85F5A3B12875878200AE985E /* UsageProvider.swift in Sources */,
+				85F5A3B32875882C00AE985E /* Telekom.swift in Sources */,
+				85C9C7FE2882EDA5006391B7 /* UsageNotification.swift in Sources */,
+				85F5A3AD2875857400AE985E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85F5A3BA2875CE9E00AE985E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85F5A3BB2875CE9E00AE985E /* en */,
+				85F5A3BE2875CF3900AE985E /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85F5A3A72875854300AE985E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85F5A3A82875854300AE985E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85F5A3AA2875854300AE985E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = DataUsageMonitor/DataUsageMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQR4W2J54M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataUsageMonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.niklas.DataUsageMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		85F5A3AB2875854300AE985E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = DataUsageMonitor/DataUsageMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQR4W2J54M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataUsageMonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.niklas.DataUsageMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85F5A3952875854200AE985E /* Build configuration list for PBXProject "DataUsageMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F5A3A72875854300AE985E /* Debug */,
+				85F5A3A82875854300AE985E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F5A3A92875854300AE985E /* Build configuration list for PBXNativeTarget "DataUsageMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F5A3AA2875854300AE985E /* Debug */,
+				85F5A3AB2875854300AE985E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85F5A3922875854200AE985E /* Project object */;
+}
